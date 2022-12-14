@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable", "Variable\Variab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Varliable", "Varliable\Varliable.csproj", "{8F276BC7-5F8A-4CB1-9976-10F4EB3844A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "metdol\Method.csproj", "{2AF07BE1-7AA3-4927-B25F-22993816843E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Method", "metdol\Method.csproj", "{2AF07BE1-7AA3-4927-B25F-22993816843E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassObjectstance", "ClassObjectstance\ClassObjectstance.csproj", "{B7E41F65-22B5-45CE-946D-B9D0B55D5022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExample", "ClassExample\ClassExample.csproj", "{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{2AF07BE1-7AA3-4927-B25F-22993816843E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF07BE1-7AA3-4927-B25F-22993816843E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF07BE1-7AA3-4927-B25F-22993816843E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E41F65-22B5-45CE-946D-B9D0B55D5022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E41F65-22B5-45CE-946D-B9D0B55D5022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E41F65-22B5-45CE-946D-B9D0B55D5022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E41F65-22B5-45CE-946D-B9D0B55D5022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

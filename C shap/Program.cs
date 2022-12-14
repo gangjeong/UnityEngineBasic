@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 //
 // 함수 형태 3가지
 // 함수 선언, 정의, 호출
-// 함수 선언 : 아래 형태와같은 함수를 사용하겠다 라고만 선언하는 것이고, 실제 함수가 어떤 연샨을 하는지 구현부분이 없음.
+// 함수 선언 : 아래 형태와같은 함수를 사용하겠다 라고만 선언하는 것이고, 실제 함수가 어떤 연산을 하는지 구현부분이 없음.
 // 변환형 함수이름 (피라미티);
 //
 // 함수 정의 :
@@ -22,11 +22,22 @@ namespace Method
 {
     class Program
     {
+        // 전역변수 (글로벌 변수)
+        // 초기화값이 있을경우 데이터 영역에 할당, 초기화값이 없을경우 Bss 영역에 할당
         static bool __helloworldPrinted;
 
         // 여기서 Main 함수는 함수 정의
         static void Main (string[] args)
         {
+            // 지역변수 - 함수 내에서 선언된 변수
+            // 지역변수는 함수 호출 스택에 같이 할당됨.
+            // 해당 변수 공간에 대한 어떤 데이터가 쓰여져 있는지 알 수 없기때문에
+            // 데이터를 할당한 후에 데이터에 접근해야한다.
+            bool somethingPrinted = false;
+            Console.WriteLine(__helloworldPrinted);
+            Console.WriteLine(somethingPrinted);
+
+
             PrintHelloWorld();
             string name = "dfdf";
             PrintSomthing(name);
