@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Method", "metdol\Method.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassObjectstance", "ClassObjectstance\ClassObjectstance.csproj", "{B7E41F65-22B5-45CE-946D-B9D0B55D5022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExample", "ClassExample\ClassExample.csproj", "{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassExample", "ClassExample\ClassExample.csproj", "{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable", "HashTable\HashTable.csproj", "{6835A41E-3908-4797-BD36-F38A61FF410F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree", "Binary Tree\Binary Tree.csproj", "{7937A5B7-0344-4637-BBEB-4176FE488C3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EE5F3D-D067-440D-A7D6-3E52A9C93C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6835A41E-3908-4797-BD36-F38A61FF410F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6835A41E-3908-4797-BD36-F38A61FF410F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6835A41E-3908-4797-BD36-F38A61FF410F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6835A41E-3908-4797-BD36-F38A61FF410F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7937A5B7-0344-4637-BBEB-4176FE488C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7937A5B7-0344-4637-BBEB-4176FE488C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7937A5B7-0344-4637-BBEB-4176FE488C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7937A5B7-0344-4637-BBEB-4176FE488C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
